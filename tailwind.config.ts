@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,14 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        ionic: {
+          navy: "hsl(var(--ionic-navy))",
+          blue: "hsl(var(--ionic-blue))",
+          "blue-light": "hsl(var(--ionic-blue-light))",
+          orange: "hsl(var(--ionic-orange))",
+          "orange-light": "hsl(var(--ionic-orange-light))",
+          gray: "hsl(var(--ionic-gray))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
